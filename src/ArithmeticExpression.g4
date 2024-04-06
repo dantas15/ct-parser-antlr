@@ -11,3 +11,5 @@ CP: ')';
 fragment Letter: [a-zA-Z];
 fragment Digit: [0-9];
 
+WS: [' '\n\t\r]+ -> skip;
+
