@@ -1,0 +1,11 @@
+SumOperators=1
+MultOperators=2
+AtrOperator=3
+OP=4
+CP=5
+WS=6
+Letter=7
+Digit=8
+'='=3
+'('=4
+')'=5
