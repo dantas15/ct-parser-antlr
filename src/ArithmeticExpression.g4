@@ -37,17 +37,12 @@ removing the recursivity
 */
 digitExpr: (Digit)+;
 
-/*
-- F → (E)
-- F → N
-- F → V
-*/
 SumOperators: '+' | '-';
 MultOperators: '*' | '/';
 AtrOperator: '=';
 OP: '(';
 CP: ')';
-Letter: [a-zA-Z];
+Letter: [a-z];
 Digit: [0-9];
 
 WS: [' '\n\t\r]+ -> skip;
